@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupee Accounting"
+        android:textAlignment="center"
+        android:textSize="100px"/>
+    <ImageView
+        android:layout_width="600px"
+        android:layout_height="800px"
+        android:src="@drawable/lupee"
+       android:layout_marginLeft="300px"
+        android:layout_marginTop="150px"
+        />
+    <LinearLayout
+        android:id="@+id/llmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90px"
+            android:text="Démarrer"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="20px"
+        android:layout_alignParentStart="true"
+        android:text="Total Balance"
+        android:textSize="70px"
+        />
+    <TextView
+        android:id="@+id/amtBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvBalance"
+        android:backgroundTint="@color/teal_200"
+        android:textSize="70px"
+        android:hint="0,00$"
+        android:layout_marginLeft="20px"
+        android:background="#FFFF00"/>
+    <Button
+        android:id="@+id/newTran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50px"
+        android:layout_marginRight="20px"
+        android:text="Add Transaction"/>
+    <LinearLayout
+        android:id="@+id/llTran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amtBalance"
+        android:layout_marginTop="20px"
+        android:orientation="vertical"/>
+    <Button
+        android:id="@+id/rmvTran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:text="Remove Tansaction"/>
+
+</RelativeLayout>
+
+
+</LinearLayout>
